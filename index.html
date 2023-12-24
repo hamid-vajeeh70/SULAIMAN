@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut-icon" src="./Logo-removebg-preview.png">
+    <title>To do List</title>
+    <link rel="icon" type="image/x-icon" href="./Logo-removebg-preview.png">
+    
+</head>
+<body>
+    <div class="container">
+       <center> <h1>To do List</h1>
+    <h3>SULAIMAN MADANI CHUNDAYIL</h3></center>
+        <form id="taskForm">
+            <input type="text" id="taskInput" placeholder="Task" required>
+            <input type="date" id="dateInput">
+            <button type="button" onclick="addTask()">Add Task</button>
+        </form>
+        <div id="taskList"></div>
+        <div class="center">
+            <button type="button" onclick="deleteAllTasks()">Delete All</button>
+        </div>
+        <div id="adContainer1">
+            <center><p>This WEBSITE or APP is created by Hamid </p></center>
+            
+            <center><p>hamidvajeeh70@gmail.com</p></center>
+        </div>
+        
+        <div id="adContainer2">
+            <img src="./Logo-removebg-preview.png" alt="Your Logo 2" class="adImage">
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
